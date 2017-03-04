@@ -8,7 +8,7 @@
     <dubbo:application name="hello-world-consumer"  owner="jhonrain"></dubbo:application>
 
     <!-- 使用multicast广播注册中心暴露发现服务地址 -->
-    <dubbo:registry address="zookeeper://180.97.69.171:2181" id="zk"></dubbo:registry>
+    <dubbo:registry address="zookeeper://xx.97.xx.xx:2181" id="zk"></dubbo:registry>
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
     <dubbo:reference id="demoService"
